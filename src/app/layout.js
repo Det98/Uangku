@@ -20,8 +20,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <HeroUIProvider>{children}</HeroUiProvider>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <HeroUIProvider>{children}</HeroUIProvider>
       </body>
     </html>
   );
