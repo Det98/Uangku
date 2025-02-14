@@ -1,3 +1,4 @@
+import { DataList } from "./_components/data-list";
 import { FormCreate } from "./_components/form-create";
 
 export default function Home() {
